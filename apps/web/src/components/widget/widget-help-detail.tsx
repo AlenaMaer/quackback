@@ -42,7 +42,7 @@ export function WidgetHelpDetail({ articleSlug }: WidgetHelpDetailProps) {
   }
 
   return (
-    <ScrollArea scrollBarClassName="w-1.5" className="flex-1 min-h-0">
+    <ScrollArea scrollBarClassName="w-1.5" className="flex-1 min-h-0 h-full">
       <div className="px-4 py-3">
         <span className="text-[11px] text-muted-foreground/60 uppercase tracking-wide">
           {article.category.name}
